@@ -4812,16 +4812,33 @@ ul.count_down.white li p:nth-child(2) {
     }
 }
 
-
-.card-1 {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  }
-.cus-bg {
-    background: rgba(221, 221, 221, 0.315)
+.def-shad {
+    border-style: Solid;
+    border-color: #000000;
+    border-color: rgba(0, 0, 0, 0.07);
+    border-width: 1px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.1);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
-.card-1:hover {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
- 
-  }
+.def-shad:hover {
+    transform: translateY(-4px);
+}
+.cus-bg {
+    background: rgba(221, 221, 221, 0.247);
+    padding:7.5rem 0 1.5rem 0;
+}
+.team-text {
+    padding: 2rem 0px 1.8rem !important;
+}
+.cus-footer {
+    padding:1.5rem 0 2.5rem 0;
+    background: rgba(221, 221, 221, 0.247);
+
+}
